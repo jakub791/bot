@@ -8,7 +8,7 @@ const evalCommnand: SlashCommand = {
     data: (
         <ApplicationCommand
             name="eval"
-            description="evaluate some javascriptor typescript code"
+            description="evaluate some javascript code"
         />
     ),
     post: "GLOBAL",
