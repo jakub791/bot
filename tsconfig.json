@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "jsx": "react-jsx",
+        "jsxImportSource": "@lilybird/jsx",
+        "module": "nodeNext",
+        "moduleResolution": "nodeNext",
+        "allowImportingTsExtensions": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "exactOptionalPropertyTypes": true,
+        "noEmit": true,
+        "lib": ["ESNext"]
+    },
+    "include": ["src"]
+}

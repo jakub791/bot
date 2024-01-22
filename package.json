@@ -1,0 +1,17 @@
+{
+    "name": "bot",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "NODE_ENV=production bun src/main.ts"
+    },
+    "dependencies": {
+        "@lilybird/handlers": "^0.3.1",
+        "@lilybird/jsx": "^0.2.0",
+        "@types/bun": "^1.0.2",
+        "lilybird": "^0.5.1",
+        "mathjax": "^3.2.2",
+        "mathjax-node": "^2.1.1"
+    }
+}
