@@ -4,12 +4,13 @@ import { ApplicationCommand } from "@lilybird/jsx";
 const ping: SlashCommand = {
     data: (
         <ApplicationCommand
-            name="remind"
-            description="remind yourself about something in the future"
+            name="ping"
+            description="pong"
         />
     ),
     post: "GLOBAL",
     async run(interaction) {
+        interaction;
         await interaction.deferReply();
 
         const { ws, rest } = await interaction.client.ping();

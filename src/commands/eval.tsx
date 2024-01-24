@@ -25,7 +25,7 @@ const evalCommnand: SlashCommand = {
             return;
         }
 
-        await interaction.editReply(`result:\n${inspect(result)}`);
+        await interaction.editReply(inspect(result));
     }
 };
 
