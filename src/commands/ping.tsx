@@ -4,8 +4,8 @@ import { ApplicationCommand } from "@lilybird/jsx";
 const ping: SlashCommand = {
     data: (
         <ApplicationCommand
-            name="remind"
-            description="remind yourself about something in the future"
+            name="ping"
+            description="ping"
         />
     ),
     post: "GLOBAL",

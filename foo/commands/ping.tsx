@@ -5,12 +5,11 @@ const ping: SlashCommand = {
     data: (
         <ApplicationCommand
             name="ping"
-            description="pong"
+            description="ping"
         />
     ),
     post: "GLOBAL",
     async run(interaction) {
-        interaction;
         await interaction.deferReply();
 
         const { ws, rest } = await interaction.client.ping();

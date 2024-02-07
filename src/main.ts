@@ -2,10 +2,12 @@ import { createHandler } from "@lilybird/handlers";
 import { env } from "bun";
 import { Intents, createClient } from "lilybird";
 
+const { dirname } = import.meta;
+
 const listeners = await createHandler({
     dirs: {
-        slashCommands: `${import.meta.dirname}/commands`,
-        listeners: `${import.meta.dirname}/listeners`
+        slashCommands: `${dirname}/commands`,
+        listeners: `${dirname}/listeners`
     }
 });
 
